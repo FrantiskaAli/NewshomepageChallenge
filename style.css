@@ -18,7 +18,7 @@ h1 {
 header ul {
     display: inline;
     list-style-type: none;
-    margin-left: 37%;
+    margin-left: 35%;
     margin-top: 10%;
 
 }
@@ -196,4 +196,58 @@ footer {
     position: fixed;
     bottom: -40%;
     position: absolute;
+}
+/* small screens  */
+@media (max-width:1220px) {
+
+    #paragraph {
+        display: block;
+        width: 100%;
+        margin-top: 0%;
+        margin-bottom: 10%;
+
+    }
+    article h2 {
+        display:block;
+        width: 100%;
+        
+    }
+    header ul {
+        display: inline;
+        list-style-type: none;
+        margin-left: 10%;
+        margin-top: 10%;
+    
+}
+/*phones*/
+@media (max-width:550px) {
+    aside {
+        width: 100%;
+        display: block;
+        margin-left: 1%;
+        padding:2%;
+        position: relative;
+        margin-bottom: 5%;
+    
+    }
+    #left {
+         width: 100%;
+            margin: 1%;
+            padding: 1%;
+     }
+     #under {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-flow: column wrap;
+
+    }
+    .articles-extra {
+        width: 100%;
+        padding: 5%;
+    }
+    
+
 }
